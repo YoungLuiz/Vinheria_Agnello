@@ -29,7 +29,7 @@
       <span>Pin: GND</span>
   </ul>
   <p><span><a href="https://wokwi.com/projects/410679136980509697">Acesso ao Projeto no WokWi</a></span></p>
-  <p><img src="0a6f21f9-189e-40c4-a489-85ea0833b1f5.jfif"./images/"></a></p>
+  <p><img src="/images/0a6f21f9-189e-40c4-a489-85ea0833b1f5.jfi"></a></p>
   <span>Para alterar os parametros do sistema, basta alterar as variaveis "limiteOK" e "limiteAlerta".</span>
 <h3>Participantes do Grupo</h3>
   <ul>
