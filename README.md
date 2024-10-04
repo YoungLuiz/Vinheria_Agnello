@@ -13,8 +13,7 @@
   <li>1 Arduino</li>
   <li>1 ProtoBoard</li>
   <li>3 Leds (1 Verde, 1 Amarela, 1 Vermelha)</li>
-  <li>3 Resistores de 220Ω</li>
-  <li>1 Resistores de 100Ω</li>
+  <li>4 Resistores de 220Ω</li>
   <li>1 Sensor LDR</li>
   <li>1 Buzzer</li>
 </ul>
