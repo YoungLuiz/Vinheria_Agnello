@@ -6,8 +6,8 @@ int ledVermelho = 4;  // LED Vermelho
 int buzzerPin = 5;   // Pino do buzzer
 
 // Limites de luminosidade
-int limiteOK = 950;       // Limite para estado OK
-int limiteAlerta = 850;   // Limite para estado de alerta
+int limiteOK = 50;       // Limite para estado OK
+int limiteAlerta = 600;   // Limite para estado de alerta
 
 void setup() {
   Serial.begin(9600);           // Inicia comunicação serial
@@ -22,13 +22,13 @@ void loop() {
   Serial.println(luminosidade);             // Para monitoramento serial
 
   // Verifica os níveis de luminosidade
-  if (luminosidade >= limiteOK) {
+  if (luminosidade <= limiteOK) {
     // Nível OK
     digitalWrite(ledVerde, HIGH);
     digitalWrite(ledAmarelo, LOW);
     digitalWrite(ledVermelho, LOW);
     noTone(buzzerPin); // Desliga o buzzer
-  } else if (luminosidade > limiteAlerta && luminosidade < limiteOK) {
+  } else if (luminosidade < limiteAlerta && luminosidade > limiteOK) {
     // Nível de alerta
     digitalWrite(ledVerde, LOW);
     digitalWrite(ledAmarelo, HIGH);
